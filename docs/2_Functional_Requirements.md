@@ -68,6 +68,15 @@
 - Support fine-grained permissions for datasets, analytical actions, and configuration management.
 - Maintain auditable records of authentication attempts, role changes, and privileged actions.
 
+### Role Permissions Matrix
+| Role | Permissions |
+|------|-------------|
+| Administrator | Full system management, user and permission control, auditing |
+| Advanced User | Data import, advanced analysis, script and template management |
+| Regular User | View data, perform standard analysis, export reports |
+| Read-only User | View-only access to datasets and visualizations |
+| Visitor | Limited access to designated public data |
+
 ## 2.6 Logging, Monitoring, and Operations
 - Centralize application, access, and task execution logs with queryable interfaces and export capabilities.
 - Monitor runtime metrics (CPU, memory, GPU, storage), API latency, and queue backlog in real time.
